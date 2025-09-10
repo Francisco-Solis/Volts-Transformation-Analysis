@@ -17,6 +17,6 @@ This project analyzes the **Volts** dataset in R, using simple linear regression
 6.	Identify any outliers and or influential points on the transformed data
 7.	Model limitations of the log transformed data
 # Key Findings:
-
+The analysis revealed a strong negative, non-linear (exponential decay) relationship between Voltage and Time, with simple linear regression assumptions (linearity, constant variance, normality) violated in the original data. Applying a log transformation linearized the relationship, making it more suitable for regression, though diagnostic plots still showed some assumption violations. The transformation improved overall fit and normality marginally, with no significant outliers or influential points detected (though observations 49 and 50 warrant further review). Limitations remain, as the log transform restricts analysis to positive values and changes interpretation, so a nonlinear regression model is ultimately recommended for more accurate representation.
 # Contributions:
 This repository was created as part of my statistical analysis portfolio. Suggestions for extending the analysis (other transformations like the inverse, square root, exponential) are welcome. 
