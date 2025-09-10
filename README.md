@@ -7,7 +7,7 @@ This project analyzes the **Volts** dataset in R, using simple linear regression
 3. Volts_Statistical_Analysis.pdf - Knitted file containing R code and data visualization
 # Requirements:
 1. R must be version 4.0 or greater
-2. R packages required for analysis - ggplot, dyplyr, Stat2Data (source for Volts dataset)
+2. R packages required for analysis - ggplot, dplyr, Stat2Data (source for Volts dataset)
 # Analysis Overview:
 1.	Examine the direction, strength and relationship between variables for the original data
 2.	Check linearity, constant variance and normality of data for the original scatterplot
